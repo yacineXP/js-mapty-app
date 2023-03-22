@@ -6,7 +6,7 @@
   Bankist App
   <br>
 <p  align="center">
-<a  href="https://www.w3.org/html/"  target="_blank"  rel="noreferrer"> <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"  alt="html5"  width="44"  height="52"/> </a><a  href="https://www.w3schools.com/css/"  target="_blank"  rel="noreferrer"> <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"  alt="css3"  width="44"  height="52"/> </a><a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"  target="_blank"  rel="noreferrer"> <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"  alt="javascript"  width="44"  height="44"/> </a>
+<a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"  target="_blank"  rel="noreferrer"> <img  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"  alt="javascript"  width="48"  height="48"/> </a>
 </p>
 </h1>
 
@@ -45,6 +45,7 @@ When a user loads the Mapty application, the application asks for permission to 
 Users can choose to log a workout by clicking on the map at their desired location. This opens a form where they can select the type of workout (running or cycling), input the distance, duration, and other details, and submit the form. The workout is then displayed as a marker on the map.
 
 The application also stores workout data locally using the localStorage API, so that users can access their workout history even after closing and reopening the application.
+
 <div id="code-examples"></div>
 
 ## 💻 Code Examples
@@ -95,6 +96,7 @@ _loadMap(position) {
   }
 ```
 The ```_loadMap()``` method is responsible for loading the map and displaying it on the webpage. It first extracts the latitude and longitude coordinates from the user's current position using the ```position.coords``` object. Then, the Leaflet library is used to create a new map object and set the view to the specified coordinates. A tile layer is added to the map to display the OpenStreetMap tiles. The method also sets up an event listener to create markers when the map is clicked and renders previous workout markers by iterating over the ```this.#workouts``` array and calling the ```_renderWorkoutMarker()``` method.
+
 <div id="acknowledgements"></div>
 
 ## 📚 Acknowledgements 
