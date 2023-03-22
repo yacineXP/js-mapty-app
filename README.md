@@ -50,7 +50,7 @@ The application also stores workout data locally using the localStorage API, so 
 
 ## 💻 Code Examples
 [![Mapty-architecture-final.png](https://i.postimg.cc/VkGrsf49/Mapty-architecture-final.png)](https://postimg.cc/87vPtV2s)
-1. Class constructor code :
+**1. An exemple of the workout constructor method:**
 ```js
 // Constructor
  constructor() {
@@ -74,7 +74,7 @@ This code defines a constructor for a workout app that performs the following ac
 
 These actions allow the app to display the user's current position, retrieve data from local storage, and perform various actions based on user interactions with the app.
 
-2. Map loading method :
+**2. An exemple the Map loading method:**
 ```js
 _loadMap(position) {
     const { latitude } = position.coords; // Destructuring Eq position.coords.latitude
